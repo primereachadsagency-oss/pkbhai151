@@ -1,106 +1,404 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="te">
 <head>
-  <!-- Basic -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Free Market Education – Start Today</title>
-  <meta name="description" content="100% free stock market education. Learn chart reading, technical analysis, and risk management. No buy/sell tips. For learning purpose only.">
-  <link rel="canonical" href="https://example.com/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pankaj Bhardwaj Official</title>
 
-  <!-- Performance -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap" rel="stylesheet">
+<style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
 
-  <!-- Favicons (optional) -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+body{
+  background: linear-gradient(135deg, #f0f4ff 0%, #e6eefc 100%);
+  color: #1f2937;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Free Market Education – Start Today">
-  <meta property="og:description" content="Learn charts & risk management. No buy/sell tips. 100% educational.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://example.com/">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1600&auto=format&fit=crop">
+.card {
+  background: #ffffff;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 20px;
+  padding: 28px 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.1);
+}
 
-  <!-- Minimal CSS (inline for speed) -->
-  <style>
-    :root{
-      --bg1:#0c0c1d;
-      --bg2:#1a1a2b;
-      --brand: #66ffcc;
-      --brand-2:#00f0ff;
-      --text:#ffffff;
-      --muted:#b5b5c3;
-    }
-    *{box-sizing:border-box}
-    html,body{margin:0;padding:0}
-    body{
-      font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      color:var(--text);
-      background:
-        linear-gradient(135deg, rgba(0,0,0,.45), rgba(0,0,0,.45)),
-        url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1600&auto=format&fit=crop') no-repeat center/cover fixed;
-      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
-      min-height:100vh;
-    }
-    .container{
-      max-width:520px; margin:0 auto; padding:24px 18px; text-align:center; min-height:100vh; display:flex; flex-direction:column; justify-content:center;
-      backdrop-filter: saturate(130%);
-    }
-    .badge{display:inline-block; font-size:.78rem; padding:6px 10px; border:1px solid #2a2a3a; border-radius:999px; color:#d6eaff; background:rgba(0,240,255,.08); margin-bottom:14px}
-    h1{font-size:1.9rem; line-height:1.2; margin:6px 0 10px; background:linear-gradient(90deg,var(--brand-2),var(--brand)); -webkit-background-clip:text; background-clip:text; color:transparent;}
-    .sub{font-size:1rem; color:var(--muted); margin:0 auto 16px; max-width:36ch}
-    .pill{
-      display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border-radius:999px; background:rgba(0,255,153,.07); border:1px dashed rgba(0,255,153,.35); color:#d8ffe9; font-size:.9rem; margin:6px 0 18px;
-    }
-    ul.bullets{list-style:none; padding:0; margin:0 0 18px}
-    ul.bullets li{margin:8px 0; color:#e9eef9}
-    .cta{
-      display:inline-block; text-decoration:none; background:var(--brand); color:#041b14; padding:14px 18px; font-weight:700; border-radius:12px; box-shadow:0 0 0 0 rgba(0,255,153,.6); transform:translateZ(0);
-      transition:transform .15s ease;
-      animation:pulse 1.6s infinite;
-    }
-    .cta:active{transform:scale(.98)}
-    @keyframes pulse{
-      0%{box-shadow:0 0 0 0 rgba(0,255,153,.55)}
-      70%{box-shadow:0 0 0 20px rgba(0,255,153,0)}
-      100%{box-shadow:0 0 0 0 rgba(0,255,153,0)}
-    }
-    .fineprint{font-size:.86rem; color:var(--muted); margin:18px auto 0; max-width:44ch}
-    .disclaimer{font-size:.78rem; color:#9aa4b2; margin:18px auto 0; max-width:50ch}
-    .safe{display:flex; align-items:center; justify-content:center; gap:8px; margin-top:14px; color:#a1ffd6; font-size:.9rem}
-    .shield{width:18px; height:18px; display:inline-block; border-radius:4px; background:linear-gradient(135deg,#0df,#0f9)}
-    footer{opacity:.8; margin-top:22px; font-size:.78rem; color:#9aa4b2}
-  </style>
+.brand{
+  font-size: 24px;
+  font-weight: 800;
+  color: #1e40af;
+  letter-spacing: -0.5px;
+}
+
+.timer{
+  margin: 12px 0 20px;
+  background: #fee2e2;
+  color: #dc2626;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.profile-wrap{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 20px;
+}
+
+.profile{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  padding: 5px;
+  background: linear-gradient(135deg, #2563eb, #60a5fa);
+  animation: pulse 2s infinite;
+}
+
+.profile img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  background: #fff;
+}
+
+@keyframes pulse{
+  0%{box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.4);}
+  70%{box-shadow: 0 0 0 15px rgba(37, 99, 235, 0);}
+  100%{box-shadow: 0 0 0 0 rgba(37, 99, 235, 0);}
+}
+
+.sub{
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.desc{
+  margin: 8px 0 20px;
+  font-size: 15px;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+  color: #fff;
+  padding: 16px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
+  transition: all 0.3s ease;
+}
+
+.btn:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(37, 99, 235, 0.45);
+}
+
+.list{
+  text-align: left;
+  margin: 20px 0;
+  background: #f8fafc;
+  padding: 15px 20px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.list li{
+  list-style: none;
+  padding: 6px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #334155;
+  display: flex;
+  align-items: center;
+}
+
+.list li::before{
+  content: "✔";
+  color: #16a34a;
+  font-weight: bold;
+  margin-right: 10px;
+  background: #dcfce7;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+
+.netad-btn{
+  margin-top: 20px;
+}
+
+.netad-btn a{
+  display: inline-block;
+  padding: 8px 18px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  border-radius: 40px;
+  color: #854d0e;
+  background: #fef9c3;
+  border: 1px solid #fde047;
+  transition: all .3s ease;
+}
+
+.netad-btn a:hover{
+  background: #fef08a;
+  transform: translateY(-1px);
+}
+
+/* Footer Links & Popups Styling */
+.footer-links{
+  margin-top: 20px;
+  border-top: 1px solid #f3f4f6;
+  padding-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-links button{
+  background: none;
+  border: none;
+  color: #6b7280;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.footer-links button:hover{
+  color: #1e40af;
+}
+
+.modal{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.modal-content{
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 480px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  text-align: left;
+  position: relative;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content h3{
+  margin-bottom: 12px;
+  color: #1e40af;
+  font-size: 18px;
+}
+
+.modal-content p{
+  font-size: 13px;
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.close-btn{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #9ca3af;
+  cursor: pointer;
+  border: none;
+  background: none;
+  line-height: 1;
+}
+
+.close-btn:hover{
+  color: #111827;
+}
+</style>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1429457832365292');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1429457832365292&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 </head>
+
 <body>
-  <main class="container">
-    <span class="badge">100% Educational • Policy Safe</span>
-    <h1>Free Market Education – Start Today</h1>
-    <p class="sub">Learn index behaviour & risk management</p>
 
-    <div class="pill">🚫 No Buy/Sell Tips • ✅ For Learning Purpose Only</div>
+<div class="card">
 
-    <ul class="bullets" aria-label="What you'll learn">
-      <li>• Chart basics & risk rules (no return promises)</li>
-      <li>• How to read trends without speculation</li>
-      <li>• Market discipline & common mistakes</li>
-    </ul>
+  <div class="brand">Pankaj Bhardwaj Official</div>
+  <div class="timer" id="timer-box">Offer closes in <span id="count">08</span>s</div>
 
-    <!-- CTA goes to a page-specific bridge -->
-    <a class="cta" href="bridge-lp90.html" rel="nofollow">Start Learning</a>
+  <div class="profile-wrap">
+    <div class="profile">
+      <img src="Munaaf.jpeg" alt="Pankaj Bhardwaj">
+    </div>
+  </div>
 
-    <div class="safe"><span class="shield" aria-hidden="true"></span> Ad Policy Friendly Content</div>
+  <div class="sub">Learning Community</div>
 
-    <p class="fineprint">We focus on concepts & frameworks suitable for beginners.</p>
-    <p class="disclaimer"><em>This website is for educational purposes only. We do not provide investment, trading, or financial advice.</em></p>
+  <div class="desc">
+    మార్కెట్ మూవ్స్ ని అర్థం చేసుకునే స్మార్ట్ ట్రేడింగ్ కమ్యూనిటీ
+  </div>
 
-    <footer>© <span id="y"></span> Market Basics Learning Hub</footer>
-  </main>
+  <a href="https://t.me/+xc-psvF8tmZkNTY9" class="btn">
+    JOIN NOW FOR FREE
+  </a>
 
-  <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
+  <ul class="list">
+    <li>5+ Years Trading Experience</li>
+    <li>Daily Telugu Market Insights</li>
+    <li>Proper Risk Management</li>
+    <li>Learning Focused Community</li>
+    <li>Beginner Friendly</li>
+  </ul>
+
+  <a href="https://t.me/+xc-psvF8tmZkNTY9" class="btn">
+    JOIN NOW FOR FREE
+  </a>
+
+  <div class="netad-btn">
+    <a href="https://t.me/+UyYzth29HpY4MDVl" target="_blank">
+      ✦ Advertising by Digital Ads Expert
+    </a>
+  </div>
+
+  <div class="footer-links">
+    <button onclick="openModal('modal-disclaimer')">Disclaimer</button>
+    <button onclick="openModal('modal-terms')">Terms & Conditions</button>
+    <button onclick="openModal('modal-about')">About Us</button>
+    <button onclick="openModal('modal-contact')">Contact Us</button>
+  </div>
+
+</div>
+
+<!-- Popups Containers -->
+<div id="modal-disclaimer" class="modal">
+  <div class="modal-content">
+    <button class="close-btn" onclick="closeModal('modal-disclaimer')">&times;</button>
+    <h3>Disclaimer</h3>
+    <p>Trading in financial markets involves substantial risk of loss and is not suitable for every investor. Valuation of stocks, options, and futures may fluctuate.</p>
+    <p>All content provided by "Pankaj Bhardwaj Official" is purely for educational purposes and should not be considered financial advice. We do not guarantee profits or provide fixed returns.</p>
+  </div>
+</div>
+
+<div id="modal-terms" class="modal">
+  <div class="modal-content">
+    <button class="close-btn" onclick="closeModal('modal-terms')">&times;</button>
+    <h3>Terms & Conditions</h3>
+    <p>By accessing or using our services and Telegram channel, you agree to be bound by these Terms and Conditions.</p>
+    <p>1. <strong>Educational Purpose:</strong> All updates, signals, and charts shared are strictly for learning purposes.</p>
+    <p>2. <strong>User Responsibility:</strong> Any investment decision made by you is solely at your own risk. We are not liable for any financial losses.</p>
+  </div>
+</div>
+
+<div id="modal-about" class="modal">
+  <div class="modal-content">
+    <button class="close-btn" onclick="closeModal('modal-about')">&times;</button>
+    <h3>About Us</h3>
+    <p>Welcome to <strong>Pankaj Bhardwaj Official</strong>!</p>
+    <p>We are a dedicated Telugu-speaking learning community focused on technical analysis, market trends, and risk management strategies. Our goal is to empower stock market enthusiasts with practical knowledge and disciplined trading principles.</p>
+  </div>
+</div>
+
+<div id="modal-contact" class="modal">
+  <div class="modal-content">
+    <button class="close-btn" onclick="closeModal('modal-contact')">&times;</button>
+    <h3>Contact Us</h3>
+    <p>For any queries, business opportunities, or feedback, feel free to reach out to us:</p>
+    <p><strong>Telegram Support:</strong> Join our channel and contact the admin directly.</p>
+    <p><strong>Email:</strong> support@pankajbhardwaj.com</p>
+  </div>
+</div>
+
+<script>
+// Timer Logic
+let time = 8;
+const el = document.getElementById("count");
+const timerBox = document.getElementById("timer-box");
+
+const countdown = setInterval(() => {
+  if (time > 1) {
+    time--;
+    el.innerText = time < 10 ? '0' + time : time;
+  } else {
+    clearInterval(countdown);
+    timerBox.innerHTML = "Limited Spots Remaining!";
+  }
+}, 1000);
+
+// Modal Functions
+function openModal(id) {
+  document.getElementById(id).style.display = 'flex';
+}
+
+function closeModal(id) {
+  document.getElementById(id).style.display = 'none';
+}
+
+// Close Modal when clicking outside the modal box
+window.onclick = function(event) {
+  const modals = document.querySelectorAll('.modal');
+  modals.forEach(modal => {
+    if (event.target === modal) {
+      modal.style.display = 'none';
+    }
+  });
+};
+</script>
+
 </body>
 </html>
